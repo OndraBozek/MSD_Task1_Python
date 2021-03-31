@@ -2,9 +2,13 @@
 def checkIfInt(userNumber):
     while True:
         try:
-            return int(input(userNumber))
+            userInput = int(input(userNumber))
+            if userInput > 0:
+                return userInput
+            else:
+                print("Not an positive integer!")
         except:
-            print("Not an integer!")
+            print("Not an positive integer!")
             continue
 
 # MAIN PROGRAM STARTS HERE:
