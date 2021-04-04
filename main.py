@@ -24,4 +24,4 @@ for number in range(userNumber,0,-1):
     elif number % 3 == 0:
         print ("Software")
     else:
-        print number
+        print (number)
